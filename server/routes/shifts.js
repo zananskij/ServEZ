@@ -1,5 +1,5 @@
 const router = require("express").Router()
-let Shift = require("../models/shift.model")
+let Shift = require("../models/shift")
 
 // POST route to create a new shift
 router.route("/").post((req, res) => {

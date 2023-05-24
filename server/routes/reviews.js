@@ -1,5 +1,5 @@
 const router = require("express").Router()
-let Review = require("../models/review.model")
+let Review = require("../models/review")
 
 // POST route to create a new review
 router.route("/").post((req, res) => {
