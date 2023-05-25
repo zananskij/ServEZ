@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg"
+import "./App.css"
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <div className="App"></div>
 }
 
-export default App;
+export default App
+
+// application overview - two button (continue to login + demo)
+
+// login + register page
+
+// dashboard (depending on user's role)
+// -admin =  all routes
+// -staff =  all order routes + all shift routes + all routes from reservations + all get review routes
+// -customer = post,put,delete route for reservations + reviews
